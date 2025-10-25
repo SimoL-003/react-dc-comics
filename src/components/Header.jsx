@@ -1,5 +1,5 @@
 import logo from "../assets/icons/dc-logo.png";
-import "./Header.css";
+import style from "./Header.module.css";
 
 export default function Header() {
   const menuItems = [
@@ -16,17 +16,21 @@ export default function Header() {
   ];
 
   return (
-    <header>
-      <div className="container">
+    <header className={style.header}>
+      <div className={`container ${style.container}`}>
         <div className="logo">
           <a href="/">
-            <img src={logo} alt="Logo DC" />
+            <img className={style.logoImg} src={logo} alt="Logo DC" />
           </a>
         </div>
         <nav>
-          <ul>
+          <ul className={style.navList}>
             {menuItems.map((curItem) => (
-              <li className={curItem === "comics" ? "active" : ""}>
+              <li
+                className={`${style.navItem} ${
+                  curItem === "comics" ? "active" : ""
+                }`}
+              >
                 <a href={`/${curItem}`}>{curItem}</a>
               </li>
             ))}

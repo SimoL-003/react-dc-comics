@@ -1,5 +1,4 @@
-header {
-    /* padding: 20px 0; */
+.header {
     height: var(--header-height);
 }
 
@@ -10,11 +9,11 @@ header {
     height: 100%;
 }
 
-.logo img {
+.logoImg {
     width: 80px;
 }
 
-ul {
+.navList {
     display: flex;
     gap: 30px;
     text-transform: uppercase;
@@ -23,7 +22,7 @@ ul {
     letter-spacing: -0.5px;
 }
 
-li {
+.navItem {
     height: var(--header-height);
     display: flex;
     align-items: center;
