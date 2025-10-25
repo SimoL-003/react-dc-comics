@@ -1,0 +1,56 @@
+/* CUSTOM PROPERTIES */
+:root {
+    --header-height: 120px;
+
+    /* Colors */
+    --dc-blue: rgb(56, 128, 241);
+}
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* LAYOUT */
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* GENERAL STYLE */
+nav .active {
+    color: var(--dc-blue);
+    border-bottom: 5px solid var(--dc-blue);
+}
