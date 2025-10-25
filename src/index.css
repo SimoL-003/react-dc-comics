@@ -4,10 +4,9 @@
 
     /* Colors */
     --text-secondary: rgb(149, 149, 149);
-
-    /* Background colors */
     --dc-blue: rgb(56, 128, 241);
-    --dark-black: rgb(28, 28, 28);
+    --bg-dark-black: rgb(28, 28, 28);
+    --bg-light-black: rgb(48, 48, 48);
 }
 
 /* RESET */

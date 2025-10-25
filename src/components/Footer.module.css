@@ -24,3 +24,42 @@
     padding: 16px 0;
     font-size: 16px;
 }
+
+.footerBottom {
+    background-color: var(--bg-light-black);
+    color: #fff;
+    height: 120px;
+}
+
+.footerBottomContainer {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn a {
+    padding: 15px;
+    border: 2px solid var(--dc-blue);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social h3 {
+    text-transform: uppercase;
+    color: var(--dc-blue);
+    font-size: 16px;
+    padding-right: 30px;
+
+}
+
+.social ul {
+    display: flex;
+    gap: 20px;
+}
