@@ -1,5 +1,5 @@
 import logo from "../assets/icons/dc-logo.png";
-import "./header.css";
+import "./Header.css";
 
 export default function Header() {
   const menuItems = [

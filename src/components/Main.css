@@ -1,0 +1,7 @@
+.hero {
+    background-color: var(--dark-black);
+    color: #fff;
+
+    /* debug */
+    height: 130px;
+}
