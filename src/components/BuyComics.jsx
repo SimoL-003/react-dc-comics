@@ -15,7 +15,7 @@ export default function BuyComics() {
   ];
 
   return (
-    <section className={style.features}>
+    <section className={style.buyComics}>
       <div className="container">
         <ul>
           {features.map((curFeature, index) => (

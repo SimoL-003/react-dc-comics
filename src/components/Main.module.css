@@ -1,23 +1,54 @@
+/* HERO SECTION */
+
 .hero {
     background-color: var(--bg-dark-black);
     color: #fff;
-
-    /* debug */
-    height: 130px;
 }
 
-.features {
+.heroImg {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.comics ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.comics li {
+    width: 180px;
+}
+
+.comics ul img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.comics ul span {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/* BUY COMICS SECTION */
+
+.buyComics {
     background-color: var(--dc-blue);
     color: #fff;
 }
 
-.features ul {
+.buyComics ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 50px 0;
 }
 
-.features img {
+.buyComics img {
     display: inline;
     height: 54px;
     max-width: 54px;
@@ -25,7 +56,7 @@
     margin-right: 14px;
 }
 
-.features span {
+.buyComics span {
     vertical-align: middle;
     text-transform: uppercase;
     font-size: 12px;
