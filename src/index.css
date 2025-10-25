@@ -3,6 +3,9 @@
     --header-height: 120px;
 
     /* Colors */
+    --text-secondary: rgb(149, 149, 149);
+
+    /* Background colors */
     --dc-blue: rgb(56, 128, 241);
     --dark-black: rgb(28, 28, 28);
 }

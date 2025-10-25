@@ -1,3 +1,11 @@
+import FooterBottom from "./FooterBottom";
+import FooterTop from "./FooterTop";
+
 export default function Footer() {
-  return <footer></footer>;
+  return (
+    <footer>
+      <FooterTop />
+      <FooterBottom />
+    </footer>
+  );
 }

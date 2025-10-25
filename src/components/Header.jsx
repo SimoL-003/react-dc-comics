@@ -25,8 +25,9 @@ export default function Header() {
         </div>
         <nav>
           <ul className={style.navList}>
-            {menuItems.map((curItem) => (
+            {menuItems.map((curItem, index) => (
               <li
+                key={index}
                 className={`${style.navItem} ${
                   curItem === "comics" ? "active" : ""
                 }`}
