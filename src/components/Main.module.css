@@ -59,11 +59,15 @@
     color: var(--text-primary);
     border: 0;
     font-weight: 700;
+    transition: 0.15s ease-out;
+
 }
 
 .buttonContainer button:hover {
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
+    background-color: var(--dc-blue-hover);
+    transition: 0.15s ease-in;
 }
 
 /* BUY COMICS SECTION */

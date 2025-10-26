@@ -29,3 +29,14 @@
     border-bottom: 5px solid var(--bg-white);
     border-top: 5px solid var(--bg-white);
 }
+
+.navItem:hover {
+    color: var(--dc-blue);
+    border-bottom: 5px solid var(--dc-blue);
+    transition: 0.15s ease-in;
+    cursor: pointer;
+}
+
+.navItem a {
+    text-decoration: none;
+}

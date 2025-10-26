@@ -7,6 +7,7 @@
     --text-secondary: rgb(149, 149, 149);
     --text-tertiary: rgb(48, 48, 48);
     --dc-blue: rgb(56, 128, 241);
+    --dc-blue-hover: rgb(0, 66, 171);
     --bg-white: #fff;
     --bg-dark-black: rgb(28, 28, 28);
     --bg-light-black: var(--text-tertiary);

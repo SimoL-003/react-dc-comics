@@ -38,12 +38,22 @@
     justify-content: space-between;
 }
 
+
 .btn a {
     padding: 15px;
     border: 2px solid var(--dc-blue);
     text-transform: uppercase;
     font-weight: 600;
     font-size: 12px;
+    transition: 0.15s ease-out;
+
+
+}
+
+.btn a:hover {
+    background-color: var(--dc-blue);
+    transition: 0.15s ease-in;
+    text-decoration: none;
 }
 
 .social {
