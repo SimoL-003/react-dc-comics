@@ -32,7 +32,7 @@ export default function FooterTop() {
     "DC Power Visa",
   ];
 
-  function createLinkLists(array) {
+  function createLinkList(array) {
     return (
       <ul>
         {array.map((curItem, index) => (
@@ -50,20 +50,20 @@ export default function FooterTop() {
         <div className={style.list}>
           <div>
             <h3>DC Comics</h3>
-            {createLinkLists(linksDCComics)}
+            {createLinkList(linksDCComics)}
           </div>
           <div>
             <h3>Shop</h3>
-            {createLinkLists(linksShop)}
+            {createLinkList(linksShop)}
           </div>
         </div>
         <div className={style.list}>
           <h3>DC</h3>
-          {createLinkLists(linksDC)}
+          {createLinkList(linksDC)}
         </div>
         <div className={style.list}>
           <h3>Sites</h3>
-          {createLinkLists(linksSites)}
+          {createLinkList(linksSites)}
         </div>
       </div>
     </section>

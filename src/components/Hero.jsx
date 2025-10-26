@@ -3,6 +3,15 @@ import comics from "../data/comics";
 import heroImg from "../assets/images/jumbotron.jpg";
 
 export default function Hero() {
+  function createComicCard(comic) {
+    return (
+      <li key={comic.id}>
+        <img src={comic.thumb} alt={comic.series} />
+        <span>{comic.series}</span>
+      </li>
+    );
+  }
+
   return (
     <section>
       <div className={style.hero}>
@@ -10,14 +19,7 @@ export default function Hero() {
         <div className="container">
           <h2 className={style.heroTitle}>Current series</h2>
           <div className={style.comics}>
-            <ul>
-              {comics.map((curComic) => (
-                <li key={curComic.id}>
-                  <img src={curComic.thumb} alt={curComic.series} />
-                  <span>{curComic.series}</span>
-                </li>
-              ))}
-            </ul>
+            <ul>{comics.map((curComic) => createComicCard(curComic))}</ul>
           </div>
           <div className={style.buttonContainer}>
             <button>Load more</button>
