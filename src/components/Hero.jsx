@@ -8,7 +8,7 @@ export default function Hero() {
       <div className={style.hero}>
         <img className={style.heroImg} src={heroImg} alt="Jumbotron" />
         <div className="container">
-          <h2>Current series</h2>
+          <h2 className={style.heroTitle}>Current series</h2>
           <div className={style.comics}>
             <ul>
               {comics.map((curComic) => (
@@ -19,7 +19,9 @@ export default function Hero() {
               ))}
             </ul>
           </div>
-          <button>Load more</button>
+          <div className={style.buttonContainer}>
+            <button>Load more</button>
+          </div>
         </div>
       </div>
     </section>

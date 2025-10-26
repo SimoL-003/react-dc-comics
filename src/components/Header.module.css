@@ -26,6 +26,6 @@
     height: var(--header-height);
     display: flex;
     align-items: center;
-    border-bottom: 5px solid #fff;
-    border-top: 5px solid #fff;
+    border-bottom: 5px solid var(--bg-white);
+    border-top: 5px solid var(--bg-white);
 }

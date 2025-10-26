@@ -3,10 +3,13 @@
     --header-height: 120px;
 
     /* Colors */
+    --text-primary: #fff;
     --text-secondary: rgb(149, 149, 149);
+    --text-tertiary: rgb(48, 48, 48);
     --dc-blue: rgb(56, 128, 241);
+    --bg-white: #fff;
     --bg-dark-black: rgb(28, 28, 28);
-    --bg-light-black: rgb(48, 48, 48);
+    --bg-light-black: var(--text-tertiary);
 }
 
 /* RESET */
@@ -21,8 +24,8 @@ body {
     line-height: 1.5;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
-    background-color: #fff;
-    color: #333;
+    background-color: var(--bg-white);
+    color: rgb(48, 48, 48);
 }
 
 ul,

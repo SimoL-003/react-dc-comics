@@ -2,7 +2,7 @@
 
 .hero {
     background-color: var(--bg-dark-black);
-    color: #fff;
+    color: var(--text-primary);
 }
 
 .heroImg {
@@ -12,19 +12,30 @@
     object-position: top;
 }
 
+.heroTitle {
+    width: fit-content;
+    color: var(--text-primary);
+    font-size: 21px;
+    padding: 16px 32px;
+    background: var(--dc-blue);
+    text-transform: uppercase;
+    position: relative;
+    top: -34px;
+}
+
 .comics ul {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(100px, 1fr));
+    justify-items: center;
 }
 
 .comics li {
-    width: 180px;
+    width: 90%;
+    max-width: 220px;
 }
 
 .comics ul img {
-    width: 180px;
-    height: 180px;
+    aspect-ratio: 1;
     object-fit: cover;
     object-position: top;
 }
@@ -35,11 +46,31 @@
     padding-bottom: 50px;
 }
 
+.buttonContainer {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.buttonContainer button {
+    padding: 13px 60px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: var(--dc-blue);
+    color: var(--text-primary);
+    border: 0;
+    font-weight: 700;
+}
+
+.buttonContainer button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 /* BUY COMICS SECTION */
 
 .buyComics {
     background-color: var(--dc-blue);
-    color: #fff;
+    color: var(--text-primary);
 }
 
 .buyComics ul {

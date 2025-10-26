@@ -19,7 +19,7 @@
 }
 
 .list h3 {
-    color: #fff;
+    color: var(--text-primary);
     text-transform: uppercase;
     padding: 16px 0;
     font-size: 16px;
@@ -27,7 +27,7 @@
 
 .footerBottom {
     background-color: var(--bg-light-black);
-    color: #fff;
+    color: var(--text-primary);
     height: 120px;
 }
 
